@@ -1,6 +1,4 @@
-one_to_hundred = (1..100)
-
-one_to_hundred.each do |x|
+for x in 1..100
   if x % 3 == 0 && x % 5 == 0
     puts "BitMaker"
   elsif x % 3 == 0
